@@ -1,6 +1,6 @@
 # android-snippets
 snippets android
 
-1) catch all exception
-2) websocket
-3) service not killed
+h2 1) catch all exception
+h2 2) websocket
+h2 3) service not killed
