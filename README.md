@@ -1,7 +1,7 @@
 # android-snippets
 snippets android
 
-## logger with log4j
+## Logger with log4j
 
 #### 1] Dependencies  
 - compile 'de.mindpipe.android:android-logging-log4j:1.0.2'
@@ -33,7 +33,7 @@ public class Configurator {
 protected org.apache.log4j.Logger logger = Configurator.getLogger(myClass.class);
 </pre>
 
-## catch all exception
+## Catch all exception
 
 <pre>
     Thread.setDefaultUncaughtExceptionHandler (new Thread.UncaughtExceptionHandler()
@@ -55,8 +55,8 @@ protected org.apache.log4j.Logger logger = Configurator.getLogger(myClass.class)
         System.exit(1);
     }
 </pre>
-## websocket
-## service not killed
+## Websocket
+## Service not killed
 
 Trigger alarm system repeat
 
