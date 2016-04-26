@@ -3,6 +3,7 @@ snippets android
 
 ## catch all exception
 
+**
 Thread.setDefaultUncaughtExceptionHandler (new Thread.UncaughtExceptionHandler()
 {
     @Override
@@ -21,5 +22,6 @@ protected void handleUncaughtException (Thread thread, Throwable e)
 
     System.exit(1);
 }
+**
 ## websocket
 ## service not killed
